@@ -1,0 +1,890 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #f0f3ef;
+}
+/* 京东头部开始 */
+.JDheader-box{
+	width: 100%;
+	height: 30px;
+	background: #e3e4e5;
+	border-bottom: #dddddd solid 1px;
+}
+.JDheader-box-son{
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.JDheader-box-son-left{
+	float: left;
+	margin-left: 200px;
+	font-size: 12px;
+	color: #666666;
+	line-height: 30px;
+}
+.JDheader-box-son-left i{
+	color: #F10215;
+	margin-right: 4px;
+}
+.JDheader-box-son-right{
+	float: right;
+	font-size: 12px;
+}
+.JDheader-box-son-right a{
+	margin: 0 7px;
+	color: #666666;
+	line-height: 30px;
+}
+.JDheader-box-son-right span{
+	color: #424242;
+	margin: 0 3px;
+}
+.JDheader-box-son-right a:nth-child(2){
+	color: #F10215;
+}
+.JDheader-box-son-right-box{
+	display:inline-block;
+	position: relative;
+	margin-right: 8px;
+}
+.JDheader-box-son-right-box i{
+	position: absolute;
+	left: 53px;
+	top: 6px;
+}
+.JDheader-box-son-right-box:nth-of-type(2) a{
+	color: #F10215;
+}
+.JDheader-box-son-right-boxer{
+	display: inline-block;
+	position: relative;
+}
+.JDheader-box-son a:hover{
+	color: #F10215;
+}
+.QRcode{
+	width: 60px;
+	height: 60px;
+	background: #f0f3ef;
+	border: 1px solid #cfcfcf;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+}
+.QRcode img{
+	width: 100%;
+	height: 100%;
+}
+.JDlogo{
+	width: 190px;
+	height: 170px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.JDlogo img{
+	width: 100%;
+	height: 100%;
+}
+/* 京东头部结束 */
+
+/* 京东搜索开始 */
+.JDsearch-box{
+	width: 100%;
+	height: 140px;
+	margin-bottom: 1px;
+}
+.JDsearch-box-son{
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.JDsearch-box-son-sousou{
+	width: 550px;
+	height: 35px;
+	margin-left: 70px;
+	margin-top: 25px;
+	position: relative;
+	float: left;
+}
+.JDsearchinput{
+	width: 500px;
+	height: 100%;
+	display: block;
+	border: 0;
+	padding-left: 2px;
+	padding-right: 44px;
+	box-sizing: border-box;
+	float: left;
+}
+.JDsearch-box-son span{
+	width: 19px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	right: 65px;
+	top: 8px;
+}
+.JDsearch-box-son-top-Magnifier{
+	width: 50px;
+	height: 100%;
+	background: #F10215;
+	float: left;
+	font-size: 19px;
+	text-align: center;
+	line-height: 35px;
+	color: #ffffff;
+	font-weight: 700;
+}
+.JDsearch-box-son-top-cart{
+	width: 190px;
+	height: 35px;
+	background: #ffffff;
+	border: 1px solid #e3e4e5;
+	box-sizing: border-box;
+	margin-left: 31px;
+	margin-top: 25px;
+	float: left;
+	color: #F10215;
+	font-size: 12px;
+	line-height: 35px;
+	position: relative
+}
+.JDsearch-box-son-top-cart i{
+	margin-left: 53px;
+	margin-right: 7px;
+}
+.redO{
+	width: 14px;
+	height: 14px;
+	background: #F10215;
+	border-radius: 100%;
+	font-size: 12px;
+	text-align: center;
+	line-height: 14px;
+	color: #ffffff;
+	position: absolute;
+	top: 5px;
+	right: 35px;
+}
+.JDsearch-box-son-bottom-top{
+    position: absolute;
+    left: 317px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+	float: left;
+}
+.JDsearch-box-son-bottom-top a{
+	margin-right: 10px;
+	color: #999;
+	font-size: 12px;
+}
+.JDsearch-box-son-bottom-top a:nth-child(1){
+	color: #F10215;
+}
+.JDsearch-box-son-bottom-bottom{
+	position: absolute;
+    left: 220px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+}
+.JDsearch-box-son-bottom-bottom a{
+	font-size: 14px;
+	line-height: 40px;
+	color: #333;
+	margin-right: 25px;
+}
+.JDsearch-box-son-bottom-bottom a:nth-child(4){
+	margin-right: 0;
+}
+.JDsearch-box-son-bottom-bottom a:nth-child(9){
+	margin-right: 0;
+}
+.JDsearch-box-son-bottom-bottom div{
+	display: inline;
+    margin-left: 17px;
+    margin-right: 18px;
+    font-size: 10px;
+	text-align: center;
+	line-height: 12px;
+	color: #666;
+}
+.JDsearch-box-son a:hover{
+	color: #F10215;
+}
+/* 京东搜索结束 */
+
+/* 京东轮播图开始 */
+.JDbannerbox{
+	width: 1190px;
+	height: 480px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDbannerbox-one{
+	width: 190px;
+	height: 100%;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.JDbannerbox-one-text{
+	width: 100%;
+	height: 26px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #626262;
+	padding-left: 18px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.JDbannerbox-one-text a{
+	color: #626262;
+}
+.JDbannerbox-one-text:hover{
+	background: #e3e4e5;
+}
+.JDbannerbox-one-text a:hover{
+	color: red;
+}
+.JDbannerbox-two{
+	width: 590px;
+	height: 100%;
+	padding-top: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.banner-imgs{
+	width: 100%;
+	height: 100%;
+}
+.banner-imgs img{
+	width: 100%;
+	height: 100%;
+}
+.btn{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	top: 195px;
+}
+.left{
+	left:0;
+	background-image: url(../img/jinglings.png);
+	background-position: -84px 0;
+}
+.left:hover{
+	background-position: 0 0;
+}
+.right{
+	right: 0;
+	background-image: url(../img/jinglings.png);
+	background-position: 41px 0;
+}
+.right:hover{
+	background-position: -43px 0;
+}
+.dots{
+	width: 100px;
+	height: 10px;
+	position: absolute;
+	left: 40px;
+	bottom: 30px;
+}
+.dot{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	float: left;
+	margin: 0 5px;
+	border: 2px solid #6D6D6D;
+	box-sizing: border-box;
+}
+.dot:hover{
+	background: white;
+}
+.JDbannerbox-three{
+	width: 190px;
+	height: 100%;
+	padding-top: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.JDbannerbox-three-img{
+	width: 190px;
+	height: 150px;
+}
+.JDbannerbox-three-img img{
+	width: 100%;
+	height: 100%;
+}
+.JDbannerbox-fore{
+	width: 190px;
+	height: 100%;
+	border-top: 10px solid #f0f3ef;
+	box-sizing: border-box;
+	background: #ffffff;
+
+}
+.JDbannerbox-fore1{
+	width: 100%;
+	height: 150px;
+}
+.JDbannerbox-fore1-img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 5px solid #e3e1df;
+	margin: 0 auto;
+	box-shadow: 1px 5px 20px #dcd9d9
+}
+.JDbannerbox-fore1-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.JDbannerbox-fore1-text1{
+	width: 100%;
+	text-align: center;
+	margin-top: 8px;
+	font-size: 12px;
+	color: #898989;
+}
+.JDbannerbox-fore1-text2{
+	width: 100%;
+	text-align: center;
+	margin-top: 7px;
+	font-size: 12px;
+}
+.JDbannerbox-fore1-text2 a{
+	margin-right: 3px;
+	color: #666666;
+}
+.JDbannerbox-fore1-text2 a:hover{
+	color: #c60000;
+}
+.JDbannerbox-fore1-text3{
+	width: 100%;
+	margin-top: 8px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDbannerbox-fore1-text3-w{
+	width: 70px;
+	height: 25px;
+	border-radius: 10px;
+	background: #ffffff;
+	font-size: 12px;
+	color: red;
+	text-align: center;
+	line-height: 25px;
+	box-shadow: 1px 5px 20px #dcd9d9
+}
+.JDbannerbox-fore1-text3-w:hover{
+	background: red;
+	color: #ffffff;
+}
+.JDbannerbox-fore1-text3-b{
+	width: 70px;
+	height: 25px;
+	border-radius: 10px;
+	background: #000000;
+	font-size: 12px;
+	color: #e5d790;
+	text-align: center;
+	line-height: 25px;
+	box-shadow: 1px 5px 20px #dcd9d9
+}
+.JDbannerbox-fore1-text3-b:hover{
+	background: red;
+	color: #ffffff;
+}
+.JDbannerbox-fore2{
+	width: 100%;
+	height: 130px;
+}
+.JDbannerbox-fore2-title{
+	width: 100%;
+	padding-top: 8px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDbannerbox-fore2-title h5{
+	margin-left: 15px;
+	color: #000000;
+	font-size: 14px;
+}
+.JDbannerbox-fore2-title a{
+	color: #999999;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.JDbannerbox-fore2-title a:hover{
+	color: #e3e4e5;
+}
+.JDbannerbox-fore2-text{
+	width: 100%;
+	height: 88px;
+	margin: 0 15px;
+	padding-top: 8px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.JDbannerbox-fore2-text li{
+	font-size: 12px;
+	color: #666666;
+}
+.JDbannerbox-fore2-text li:hover{
+	color: #c60000;
+}
+.JDbannerbox-fore2-text li span{
+	display: inline-block;
+	width: 35px;
+	height: 16px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 16px;
+	background: #e47f7f;
+	margin-right: 6px;
+	border-radius: 2px;
+	color: #ffffff;
+}
+.JDbannerbox-fore2-text li:nth-child(1) span{
+	background: #90b0c6;
+}
+.JDbannerbox-fore2-text li:nth-child(2) span{
+	background: #e0b95a;
+}
+.JDbannerbox-fore3{
+	width: 100%;
+	height: 1px;
+	background: #f0f3ef;
+	border-left: 15px solid #ffffff;
+	border-right: 15px solid #ffffff;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.JDbannerbox-fore4{
+	width: 190px;
+	height: 194px;
+	padding: 18px 11px 11px 11px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.JDbannerbox-fore4-box{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDbannerbox-fore4-box a{
+	display: block;
+	width: 42px;
+	height: 57px;
+	padding-top: 6px;
+	color: #d1c5ae;
+	font-size: 12px;
+	text-align: center;
+}
+.JDbannerbox-fore4-box a:hover{
+	color: #c60000;
+}
+.JDbannerbox-fore4-box a i{
+	display: block;
+}
+/* 京东轮播图结束 */
+
+/* 京东秒杀开始 */
+.JDSpike{
+	width: 1190px;
+	height: 275px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDSpike-box{
+	width: 190px;
+	height: 100%;
+	background: #ffffff;
+}
+.JDSpike-box:nth-child(1){
+	background: #E83632;
+}
+.JDSpike-box-text1{
+	width: 100%;
+	margin-top: 40px;
+	font-size: 33px;
+	text-align: center;
+	color: #ffffff;
+}
+.JDSpike-box-text2{
+	width: 100%;
+	margin-top: 6px;
+	font-size: 20px;
+	text-align: center;
+	color: #f39a98;
+}
+.JDSpike-box-text3{
+	width: 100%;
+	margin-top: 12px;
+	text-align: center;
+}
+.JDSpike-box-text4{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+}
+.JDSpike-box-text5{
+	margin-top: 20px;
+	width: 130px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 17px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.JDSpike-box-text5-box{
+	width: 40px;
+	height: 100%;
+	background: #2F3430;
+	position: relative;
+}
+.honghengxian{
+	width: 100%;
+	height: 1px;
+	background: #E83632;
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 1px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.JDSpike-box-img{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: #ffffff;
+}
+.JDSpike-box-img img{
+	width: 100%;
+	height: 100%;
+}
+.JDSpike-box-introduce{
+	margin-top: 18px;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	color: #666666;
+}
+.JDSpike-box-much{
+	width: 162px;
+	height: 22px;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+.JDSpike-box-much-left{
+	width: 81px;
+	height: 100%;
+	background: #E83632;
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+	color: #FFFFFF;
+	float: left;
+}
+.JDSpike-box-much-right{
+	width: 80px;
+	height: 100%;
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+	color: #b7bcb8;
+	float: left;
+	border: 1px solid #E83632;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.JDSpike-box-killimg{
+	width: 100%;
+	height: 100%;
+	padding: 7px 10px;
+	box-sizing: border-box;
+}
+.JDSpike-box-killimg img{
+	width: 100%;
+	height: 100%;
+}
+/* 京东秒杀结束 */
+
+/* 京东排行榜开始 */
+.JDRanking{
+	width: 1190px;
+	height: 450px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDRanking-box{
+	width: 390px;
+	height: 100%;
+	background: #ffffff;
+}
+.JDRanking-box-title{
+	width: 100%;
+	height: 60px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.JDRanking-box-title div{
+	line-height: 60px;
+	font-size: 22px;
+	color: #000000;
+	float: left;
+	font-weight: normal;
+	margin-right: 4px;
+}
+.JDRanking-box-title i{
+	line-height: 64px;
+	font-size: 22px;
+	color: #E83632;
+	float: left;
+	font-weight: normal;
+}
+.JDRanking-box-title span{
+	float: left;
+    font-size: 14px;
+    color: #999;
+    height: 20px;
+    line-height: 40px;
+    margin: 12px 0 0 10px;
+}
+.JDRanking-box-mum{
+	height: 33px;
+	background: #f0f3ef;
+	padding: 0 20px;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+	line-height: 33px;
+}
+.JDRanking-box-mum a{
+	color: #666666;
+}
+.JDRanking-box-banner{
+	width: 100%;
+	height: 321px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.JDRanking-box-banner-one{
+	width: 100%;
+	height: 107px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.JDRanking-box-banner-one-img{
+	width: 80px;
+	height: 80px;
+}
+.JDRanking-box-banner-one-img img{
+	width: 100%;
+	height: 100%;
+}
+.JDRanking-box-banner-one-num{
+	font-size: 33px;
+	color: #E74240;
+	font-weight: 900;
+	line-height: 107px;
+	margin-left: 12px;
+}
+.JDRanking-box-banner-one-text{
+	font-size: 12px;
+	color: #333;
+	margin-left: 12px;
+}
+.JDRanking-box-hengxian{
+	width: 350px;
+	height: 1px;
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+.JDRanking-box-dots{
+	width: 34px;
+	margin: 0 auto;
+	margin-top: 6px;
+}
+.JDRanking-box-dot{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 3px;
+	border: 4px solid #fdd9dd;
+	box-sizing: border-box;
+	background: #E83632;
+}
+.JDRanking-box-dot2{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	float: left;
+	margin-top: 4px;
+	border: 2px solid #b9beba;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+.JDRanking-box-imgbanner{
+	width: 350px;
+	height: 355px;
+	background: url(../img/好货背景.png) no-repeat;
+	background-size: 100%;
+}
+/* 京东排行榜结束 */
+
+/* 京东寻觅开始 */
+.JDRanking-box-5gbox{
+	width: 350px;
+	height: 355px;
+	margin: 0 auto;
+}
+.JDRanking-box-5gbox-img{
+	width: 100%;
+	height: 250px;
+}
+.JDRanking-box-5gbox-img img{
+	width: 100%;
+	height: 100%;
+}
+.JDRanking-box-5gbox p:nth-child(2){
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	color: #333;
+	line-height: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.JDRanking-box-5gbox p:nth-child(3){
+	width: 100%;
+	height: 40px;
+	font-size: 14px;
+	color: #999;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.JDRanking-box-goodshop-img img{
+	display: block;
+	width: 350px;
+	height: 135px;
+	margin: 0 auto;
+}
+.JDRanking-box-goodshop-commodity{
+	width: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+.JDRanking-box-goodshop-commodity img{
+	width: 80px;
+	height: 80px;
+}
+.JDRanking-box-goodshop-name{
+	text-align: center;	
+	height: 59px;
+	line-height: 59px;
+}
+.JDRanking-box-goodshop-text{
+	width: 350px;
+	font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    margin: 0 auto;
+	margin-bottom: 13px;
+    text-align: center;
+    overflow: hidden;
+    color: #8e8e8e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.JDRanking-box-redman{
+	width: 350px;
+	height: 250px;
+	margin: 0 auto;
+}
+.JDRanking-box-redman img{
+	width: 100%;
+	height: 100%;
+}
+.JDRanking-box-clothesbox{
+	width: 360px;
+	height: 110px;
+    margin: 10px auto 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDRanking-box-clothesbox img{
+	width: 110px;
+	height: 110px;
+}
+/* 京东寻觅结束 */
