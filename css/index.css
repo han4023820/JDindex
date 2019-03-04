@@ -66,6 +66,20 @@ body{
 	display: inline-block;
 	position: relative;
 }
+.triangle{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e4e4e4 #e4e4e4 #f6f6f6;
+}
 .JDheader-box-son a:hover{
 	color: #F10215;
 }
@@ -998,6 +1012,7 @@ body{
 	width: 1190px;
 	height: 45px;
 	margin: 0 auto;
+	margin-bottom: 30px;
 }
 .JDAIflash-title-txt{
 	position: relative;
@@ -1161,7 +1176,7 @@ body{
 	position: relative;
 }
 .JDAIflash-computer-img{
-	width: 380px;
+	width: 340px;
 	height: 200px;
 	position: absolute;
 	right: 0;
@@ -1187,5 +1202,46 @@ body{
 .JDAIflash-phone-bighuang-tb{
 	width: 350px;
 	height: 180px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.JDAIflash-phone-bighuang-tb-1{
+	width: 170px;
+	height: 180px;
+}
+.JDAIflash-phone-bighuang-tb-1 img{
+	width: 100%;
+	height: 100%;
 }
 /* 只能先锋结束 */
+
+/* 企业采购 */
+.enterpriseProcurement{
+	width: 1190px;
+	height: 220px;
+	margin: 0 auto;
+}
+/* 企业采购 */
+
+/* JOY寻宝 */
+.JOYTreasure{
+	width: 1190px;
+	height: 500px;
+	margin: 0 auto;
+}	
+/* JOY寻宝 */
+
+/* 特色推荐 */
+.featuredRecommendation{
+	width: 1190px;
+	height: 340px;
+	margin: 0 auto;
+}
+/* 特色推荐 */
+/* 京东直播 */
+.JDLIVE{
+	width: 1190px;
+	height: 455px;
+	margin: 0 auto;
+/* 京东直播 */
